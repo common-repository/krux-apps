@@ -1,0 +1,73 @@
+.kwp-main-wrapper{
+	font-family: Arial, Helvetica, sans-serif; color: #4a4a49;
+}
+.kwp-blue{
+	color: #77D0FC;
+}
+.kwp-hidden{ display: none; }
+.kwp-left{
+	float: left;
+}
+/* -=HEADER
+---------------------------------------------------------------------------- */
+.kwp-main-header{
+	width: 100%; background: url('../images/top_bar_bg.png') repeat-x;
+	height: 55px; margin-left: -19px; padding-right: 19px;
+}
+.kwp-main-header > span{
+	line-height: 55px; color: #ffffff; padding: 0 20px; font-size: 20px;
+	font-weight: bold; text-shadow: 0 -1px 0 #302F2F;
+}
+
+/* -=INPUT ROW
+---------------------------------------------------------------------------- */
+.kwp-input-section{
+	margin-top: 30px; line-height: 23px;
+}
+.kwp-input-row{
+	float: left; clear: left; width: 1000px;
+}
+.kwp-input-row > label{
+	float: left; width: 150px; padding-right: 30px;
+	margin-bottom: 40px; font-weight: bold; font-size: 18px; 
+}
+.kwp-input-row .kwp-input-content{
+	float: left; width: 800px;
+}
+
+/* -=SOCIAL SHARING OPTIONS */
+.kwp-social-options input[type=checkbox]{ float: left; margin: 10px 6px 0 16px; }
+
+/* -=SOCIAL CONFIG TABLE
+---------------------------------------------------------------------------- */
+.kwp-config-table-wrapper{
+	border: 1px solid #ffffff;
+	float: left; border-radius: 5px;
+	height: 406px; width: 560px;
+	background: -webkit-linear-gradient(top, rgba(249, 249, 249, 1) 50%, rgba(240, 240, 240, 1) 100%);
+	background: -moz-linear-gradient(top, rgba(249, 249, 249, 1) 50%, rgba(240, 240, 240, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(249, 249, 249, 1) 50%, rgba(240, 240, 240, 1) 100%);
+	background: -o-linear-gradient(top, rgba(249, 249, 249, 1) 50%, rgba(240, 240, 240, 1) 100%);
+	background:	linear-gradient(top, rgba(249, 249, 249, 1) 50%, rgba(240, 240, 240, 1) 100%);
+	box-shadow: 1px 1px 1px #ddd;
+}
+.kwp-config-table{
+	border-collapse: collapse; width: 100%;
+}
+.kwp-config-table th{
+	
+}
+.kwp-config-table th,
+.kwp-config-table td{
+	padding: 20px; text-align: left;
+}
+
+.kwp-config-table th,
+.kwp-config-table td.kwp-label{
+	font-size: 16px; text-shadow: 0 1px 0 #fff;
+	font-weight: normal;
+}
+
+.widget-container > div{
+	display: none;
+}

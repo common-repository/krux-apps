@@ -1,0 +1,40 @@
+{
+    "name": "krux_apps_wp",
+    "description": "A Wordpress plugin to utilize Krux Apps features",
+    "version": "0.1.0",
+    "keywords": [
+        "social"
+    ],
+    "author": { "name" : "Rajen Shah" },
+    "maintainers": [
+        {
+            "name": "Rajen Shah",
+            "email": "rajen at krux, dot com",
+            "web": "http://www.krux.com"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Rajen Shah",
+            "email": "rajen at krux, dot com",
+            "web": "http://www.krux.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/krux/kruxapps-wp"
+        }
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "~0.3.17",
+        "grunt-casperjs": "~1.0.0"
+    },
+    "homepage": "http://www.krux.com",
+    "os": [],
+    "cpu": [],
+    "scripts": {
+      "test": "grunt test"
+    }
+}
